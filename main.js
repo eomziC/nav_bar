@@ -6,3 +6,9 @@ toggleBtn.addEventListener('click',() =>{
    menu.classList.toggle('active');
    icons.classList.toggle('active');
 });
+$(function () {
+   $('.go_top').click(function (){
+      e.preventDefault();
+      $('html, body').stop.animate({scrollTop:0},500);
+   });
+});
