@@ -6,6 +6,8 @@ a {
     text-decoration: none;
     color: #fff;
 }
+
+/* header */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -77,6 +79,8 @@ a {
         display: flex;
     }
 }
+
+/* main */
 .title {
     border-bottom: 2px solid #000;
 }
@@ -97,5 +101,18 @@ a {
     border-bottom: 2px solid red;
 }
 .content .content__box p {
+    text-align: center;
+}
+
+/* footer */
+footer {
+    position: absolute;
+    bottom: 0;
+    background-color: #263343;
+    width: 100%;
+    height: 200px;
+}
+.footer p {
+    color: #fff;
     text-align: center;
 }
