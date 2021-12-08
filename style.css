@@ -77,3 +77,25 @@ a {
         display: flex;
     }
 }
+.title {
+    border-bottom: 2px solid #000;
+}
+.title h1 {
+    text-align: center;
+}
+.content {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.content .content__box {
+    border: 2px solid red;
+}
+.content .content__box a {
+    width: 100%;
+    height: 100%;
+    border-bottom: 2px solid red;
+}
+.content .content__box p {
+    text-align: center;
+}
